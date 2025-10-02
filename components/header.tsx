@@ -38,7 +38,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-12 h-12 transition-transform duration-300 group-hover:scale-110">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tree-TTve7cWDGVymAfWXqysqGjdwdS9rHw.jpeg"
+                src="/souza.jpeg"
                 alt="Souza & Son's Tree Service"
                 fill
                 className="object-contain"
