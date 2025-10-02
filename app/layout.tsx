@@ -6,11 +6,12 @@ import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 
+
 export const metadata: Metadata = {
   title: "Souza & Son's Tree Service | Professional Tree Care in Jacksonville",
   description:
     "Expert tree removal, trimming, and land clearing services in Jacksonville Beach, Fernandina Beach, and Mandarin. Family-owned, licensed, and insured.",
-  generator: "v0.app",
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -20,23 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`${GeistSans.variable} ${GeistMono.variable} antialiased animated-gradient`}
-      >
-        {/* Background Layers */}
-        <div className="flowing-lines"></div>
-        <div className="floating-shapes">
-          <div className="shape shape--primary"></div>
-          <div className="shape shape--secondary"></div>
-          <div className="shape shape--accent"></div>
-        </div>
-
-        {/* Foreground Content */}
-        <div className="relative z-10">
-          <Header />
-          {children}
-          <Footer />
-        </div>
+      <body className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   )
