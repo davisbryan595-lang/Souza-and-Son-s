@@ -64,7 +64,7 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className="group bg-white/70 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                className="group bg-secondary/80 backdrop-blur-sm border border-border rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
               >
                 <div className="relative h-48 overflow-hidden">
                   <img

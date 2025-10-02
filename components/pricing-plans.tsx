@@ -57,7 +57,7 @@ export default function PricingPlans() {
           {pricingPlans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 ${
+              className={`relative bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 ${
                 plan.popular ? "border-2 border-primary scale-105 md:scale-110" : "border border-border hover:scale-105"
               }`}
             >
@@ -90,7 +90,7 @@ export default function PricingPlans() {
                   className={`w-full ${
                     plan.popular
                       ? "bg-primary hover:bg-primary/90 text-white"
-                      : "bg-white hover:bg-accent text-accent hover:text-white border-2 border-accent"
+                      : "bg-secondary/80 hover:bg-secondary text-secondary-foreground border border-border"
                   } font-semibold shadow-lg hover:shadow-xl transition-all duration-300`}
                 >
                   Get Started

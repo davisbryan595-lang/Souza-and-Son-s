@@ -45,7 +45,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+          <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-foreground mb-6">Request a Quote</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -146,7 +146,7 @@ export default function Contact() {
 
           {/* Contact Information */}
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-foreground mb-6">Contact Information</h3>
 
               <div className="space-y-6">
@@ -195,7 +195,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
               <h3 className="text-xl font-bold text-foreground mb-4">Business Hours</h3>
               <div className="space-y-2 text-muted-foreground">
                 <div className="flex justify-between">
@@ -213,7 +213,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
               <h3 className="text-xl font-bold text-foreground mb-4">Follow Us</h3>
               <div className="flex gap-4">
                 <a

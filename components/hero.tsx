@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full mb-8 shadow-lg animate-fade-in">
+          <div className="inline-flex items-center gap-2 bg-secondary/80 backdrop-blur-sm px-4 py-2 rounded-full mb-8 shadow-lg animate-fade-in">
             <Award className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-foreground">Professional Tree Care Since 1995</span>
           </div>
@@ -48,17 +48,17 @@ export default function Hero() {
 
           {/* Trust Indicators */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <Shield className="w-10 h-10 text-primary mx-auto mb-3" />
               <h3 className="font-bold text-lg text-foreground mb-2">Fully Insured</h3>
               <p className="text-sm text-muted-foreground">Licensed and insured for your protection</p>
             </div>
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <Users className="w-10 h-10 text-primary mx-auto mb-3" />
               <h3 className="font-bold text-lg text-foreground mb-2">Family Owned</h3>
               <p className="text-sm text-muted-foreground">Three generations of tree care expertise</p>
             </div>
-            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <Award className="w-10 h-10 text-primary mx-auto mb-3" />
               <h3 className="font-bold text-lg text-foreground mb-2">Expert Team</h3>
               <p className="text-sm text-muted-foreground">Certified arborists and trained professionals</p>

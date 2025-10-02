@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <TreeDeciduous className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-3">Our Story</h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -26,7 +26,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <Heart className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-3">Family Values</h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -38,7 +38,7 @@ export default function About() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <Leaf className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-3">Our Commitment</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
