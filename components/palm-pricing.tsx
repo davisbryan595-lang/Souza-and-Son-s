@@ -30,7 +30,7 @@ export default function PalmPricing() {
         </div>
 
         {/* Pricing Note */}
-        <div className="bg-gradient-to-br from-primary/20 to-accent/20 backdrop-blur-sm rounded-2xl p-8 mb-12 shadow-lg border-2 border-primary/30">
+        <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 mb-12 shadow-lg border-2 border-primary/30">
           <div className="flex items-start gap-4">
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
               <DollarSign className="w-6 h-6 text-white" />
@@ -51,7 +51,7 @@ export default function PalmPricing() {
           {palmSpecies.map((palm, index) => (
             <div
               key={index}
-              className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-border"
+              className="bg-secondary/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border border-border"
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex-1">
@@ -71,7 +71,7 @@ export default function PalmPricing() {
         </div>
 
         {/* Additional Info */}
-        <div className="mt-12 bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+        <div className="mt-12 bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
           <h3 className="text-xl font-bold text-foreground mb-4">What&apos;s Included</h3>
           <ul className="grid md:grid-cols-2 gap-4">
             <li className="flex items-start gap-3">

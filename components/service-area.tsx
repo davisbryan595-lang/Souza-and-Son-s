@@ -32,7 +32,7 @@ export default function ServiceArea() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+          <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-foreground mb-6">Our Service Coverage</h3>
             <div className="grid grid-cols-2 gap-4">
               {serviceAreas.map((area, index) => (
@@ -54,7 +54,7 @@ export default function ServiceArea() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
               <h3 className="text-xl font-bold text-foreground mb-4">Why Choose Local?</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
@@ -87,7 +87,7 @@ export default function ServiceArea() {
               </ul>
             </div>
 
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+            <div className="bg-secondary/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
               <h3 className="text-xl font-bold text-foreground mb-3">Emergency Services</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Storm damage? Fallen tree? We offer 24/7 emergency tree removal services throughout our service area.

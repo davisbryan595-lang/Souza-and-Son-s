@@ -78,7 +78,7 @@ export default function Gallery() {
               className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
                 selectedCategory === category
                   ? "bg-primary text-white shadow-lg scale-105"
-                  : "bg-white/70 text-muted-foreground hover:bg-white hover:shadow-md"
+                  : "bg-secondary/80 text-secondary-foreground hover:bg-secondary hover:shadow-md"
               }`}
             >
               {category}
@@ -91,7 +91,7 @@ export default function Gallery() {
           {filteredImages.map((image, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white/70 backdrop-blur-sm"
+              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-secondary/80 backdrop-blur-sm"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img

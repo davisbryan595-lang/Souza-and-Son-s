@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-secondary/80 backdrop-blur-md border-b border-border shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
@@ -83,7 +83,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border bg-white/95 backdrop-blur-md">
+          <div className="md:hidden py-4 border-t border-border bg-secondary/80 backdrop-blur-md">
             <nav className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
